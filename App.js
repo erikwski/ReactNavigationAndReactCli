@@ -13,8 +13,8 @@ const App = () => {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="List of meals" component={ListOfMeals} />
-        <Stack.Screen name="Single meal" component={MealItem} />
+        <Stack.Screen name="listOfMeals" component={ListOfMeals} />
+        <Stack.Screen name="singleMeal" component={MealItem} />
       </Stack.Navigator>
     </NavigationContainer>
   );
